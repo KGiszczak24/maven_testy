@@ -14,4 +14,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub KGiszczak24 Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/KGiszczak24/maven_testy</url>
+        </repository>
+    </distributionManagement>
+
 </project>
