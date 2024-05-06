@@ -6,7 +6,7 @@
 
     <groupId>org.KGiszczak</groupId>
     <artifactId>git</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
@@ -21,5 +21,13 @@
             <url>https://maven.pkg.github.com/KGiszczak24/maven_testy</url>
         </repository>
     </distributionManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.KGiszczak</groupId>
+            <artifactId>git</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+    </dependencies>
 
 </project>
